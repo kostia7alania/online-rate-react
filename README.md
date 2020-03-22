@@ -1,3 +1,6 @@
+# DEMO
+<a target="_blank" href="https://kostia7alania.github.io/online-rate-react/build/">LINK TO DEMO</a>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
