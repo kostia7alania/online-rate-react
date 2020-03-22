@@ -1,5 +1,5 @@
 const fetchRates = () => {
-  return fetch(`http://www.cbr-xml-daily.ru/daily_json.js`)
+  return fetch(`https://cors-anywhere.herokuapp.com/http://www.cbr-xml-daily.ru/daily_json.js`)
     .then((response) => response.json())
     .then(data => data.Valute)
     .then(({ USD, EUR }) => [USD.Value, EUR.Value]);
